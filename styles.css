@@ -1,0 +1,79 @@
+body {
+	height: 100vh;
+}
+
+#header-div {
+  text-align: center;
+  background-color: lightblue;
+}
+
+#page-title {
+  font-size: 2rem;
+}
+
+#form-div {
+	margin-top: 2rem;
+  text-align: center;
+}
+
+#candidate-form, #voter-form {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+
+#voter-form {
+  position: relative;
+}
+
+#randomize-btn {
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+}
+
+#list-div {
+	margin-top: 5rem;
+	text-align: center;
+	height: 30%;
+	position: relative;
+}
+
+#list-div span:first-child {
+	position: absolute;
+	top: -2rem;
+}
+
+#voter-span {
+	position: absolute;
+	top: -2rem;
+}
+
+#candidate-list, #voter-list {
+	max-height: 10rem;
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+}
+
+.list-group{
+	max-height: 300px;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.list-group-item {
+	text-align: left;
+}
+
+#vote-btn-div {
+	margin-top: 4rem;
+	width: 60%;
+	height: 10%;
+}
+
+#vote-btn-div .btn {
+	width: 100%;
+	height: 100%;
+	font-size: 4rem;	
+}
