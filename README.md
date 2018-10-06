@@ -66,3 +66,4 @@ Whenever you create a new ```Candidate```, push it into the ```candidate``` arra
 5. Finally, go through each one of the Candidates arrays and find the candidate with the most total votes. Use an alert box to declare the name of the winner.
 
 Note: Understand that you can (and should) divide this ```function``` into multiple ```functions```.# js-voter-sim
+# js-voter-sim
